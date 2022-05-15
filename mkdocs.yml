@@ -1,0 +1,19 @@
+site_name: Chill Docs
+theme:
+  name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+nav:
+  - index.md
+  - install.md
+  - create.md
+  - api.md
+  - versioning.md
+  - sync.md
+  - binding.md
+  - integration.md
+  - deploy.md
